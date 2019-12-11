@@ -1,4 +1,4 @@
-# PersonalBlog
+# whatapalaver blog
 
 A [GatsbyJS](https://www.gatsbyjs.org/) personal blog starter. <br /><br />
 

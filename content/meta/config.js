@@ -1,32 +1,32 @@
 const colors = require("../../src/styles/colors");
 
 module.exports = {
-  siteTitle: "PersonalBlog - a blog starter for GatsbyJS", // <title>
-  shortSiteTitle: "PersonalBlog GatsbyJS Starter", // <title> ending for posts and pages
-  siteDescription: "PersonalBlog is a GatsbyJS starter.",
-  siteUrl: "https://gatsby-starter-personal-blog.greglobinski.com",
+  siteTitle: "whatapalaver - Faff of a techy nature", // <title>
+  shortSiteTitle: "whatapalaver", // <title> ending for posts and pages
+  siteDescription: "whatapalaver - Faff of a techy nature.",
+  siteUrl: "https://whatapalaver.co.uk",
   pathPrefix: "",
   siteImage: "preview.jpg",
   siteLanguage: "en",
   // author
-  authorName: "greg lobinski",
-  authorTwitterAccount: "greglobinski",
+  authorName: "angela wolff",
+  authorTwitterAccount: "DoctorMoxie",
   // info
-  infoTitle: "greg lobinski",
-  infoTitleNote: "personal blog",
+  infoTitle: "whatapalaver",
+  infoTitleNote: "coding blog",
   // manifest.json
-  manifestName: "PersonalBlog - a blog starter for GatsbyJS",
-  manifestShortName: "PersonalBlog", // max 12 characters
+  manifestName: "whatapalaver - Faff of a techy nature",
+  manifestShortName: "whatapalaver", // max 12 characters
   manifestStartUrl: "/",
   manifestBackgroundColor: colors.background,
   manifestThemeColor: colors.background,
   manifestDisplay: "standalone",
   // contact
-  contactEmail: "john@doe.com",
+  contactEmail: "warriorwomenblog@gmail.com",
   // social
   authorSocialLinks: [
-    { name: "github", url: "https://github.com/greglobinski" },
-    { name: "twitter", url: "https://twitter.com/greglobinski" },
-    { name: "facebook", url: "https://facebook.com/greglobinski" }
+    { name: "github", url: "https://github.com/whatapalaver" },
+    { name: "twitter", url: "https://twitter.com/DoctorMoxie" },
+    { name: "linkedin", url: "https://www.linkedin.com/in/angelawolff/" }
   ]
 };
