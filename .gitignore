@@ -65,3 +65,11 @@ yarn-error.log
 # editors
 .idea/
 .vscode
+
+# Build Path of Test Fixtures
+test/**/public
+.gatsby-context.js
+.DS_Store
+public
+.cache
+.netlify

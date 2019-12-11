@@ -1,3 +1,7 @@
 [build]
   publish = "public"
   command = "npm run build"
+[build.environment]
+  ALGOLIA_APP_ID="057Q398EQC"
+  ALGOLIA_SEARCH_ONLY_API_KEY="b79de493c9a685cce85736695bbe4dce"
+  ALGOLIA_INDEX_NAME="content"
