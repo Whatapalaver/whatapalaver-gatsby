@@ -1,8 +1,9 @@
 require("dotenv").config();
 const config = require("./content/meta/config");
+const transformer = require("./src/utils/algolia");
 
 const query = `{
-  allMarkdownRemark(filter: { id: { regex: "//posts|pages//" } }) {
+  allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/posts|pages/[0-9]+.*--/"}}) {
     edges {
       node {
         objectID: id
@@ -14,7 +15,6 @@ const query = `{
         }
         frontmatter {
           title
-          subTitle
         }
       }
     }
@@ -24,7 +24,9 @@ const query = `{
 const queries = [
   {
     query,
-    transformer: ({ data }) => data.allMarkdownRemark.edges.map(({ node }) => node)
+    transformer: ({ data }) => {
+      return data.allMarkdownRemark.edges.reduce(transformer, []);
+    }
   }
 ];
 
@@ -54,7 +56,7 @@ module.exports = {
         apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
         indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
         queries,
-        chunkSize: 10000 // default: 1000
+        chunkSize: 10000
       }
     },
     {
