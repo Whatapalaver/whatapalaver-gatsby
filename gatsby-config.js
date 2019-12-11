@@ -37,11 +37,11 @@ module.exports = {
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
     algolia: {
-      appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
-      searchOnlyApiKey: process.env.ALGOLIA_SEARCH_ONLY_API_KEY
-        ? process.env.ALGOLIA_SEARCH_ONLY_API_KEY
+      appId: process.env.GATSBY_ALGOLIA_APP_ID ? process.env.GATSBY_ALGOLIA_APP_ID : "",
+      searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY
+        ? process.env.GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY
         : "",
-      indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : ""
+      indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME ? process.env.GATSBY_ALGOLIA_INDEX_NAME : ""
     },
     facebook: {
       appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
@@ -52,9 +52,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-algolia`,
       options: {
-        appId: process.env.ALGOLIA_APP_ID ? process.env.ALGOLIA_APP_ID : "",
+        appId: process.env.GATSBY_ALGOLIA_APP_ID ? process.env.GATSBY_ALGOLIA_APP_ID : "",
         apiKey: process.env.ALGOLIA_ADMIN_API_KEY ? process.env.ALGOLIA_ADMIN_API_KEY : "",
-        indexName: process.env.ALGOLIA_INDEX_NAME ? process.env.ALGOLIA_INDEX_NAME : "",
+        indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME
+          ? process.env.GATSBY_ALGOLIA_INDEX_NAME
+          : "",
         queries,
         chunkSize: 10000
       }
