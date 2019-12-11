@@ -8,13 +8,19 @@ import PageHeader from "../components/Page/PageHeader";
 import Search from "../components/Search";
 
 const SearchPage = props => {
-  const { data } = props;
+  const {
+    data: {
+      site: {
+        siteMetadata: { algolia }
+      }
+    }
+  } = props;
 
   return (
     <Main>
       <Article>
         <PageHeader title="Search by" algolia={true} />
-        <Search algolia={data.site.siteMetadata.algolia} />
+        <Search algolia={algolia} />
       </Article>
     </Main>
   );
@@ -28,7 +34,7 @@ export default SearchPage;
 
 //eslint-disable-next-line no-undef
 export const query = graphql`
-  query AlgoliaQuery {
+  query SearchQuery {
     site {
       siteMetadata {
         algolia {
