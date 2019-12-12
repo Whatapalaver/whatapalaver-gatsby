@@ -119,7 +119,7 @@ module.exports = {
         background_color: config.manifestBackgroundColor,
         theme_color: config.manifestThemeColor,
         display: config.manifestDisplay,
-        icon: `src/images/icon.png`
+        icon: `src/images/app-icons/icon.png`
       }
     },
     `gatsby-plugin-offline`,
