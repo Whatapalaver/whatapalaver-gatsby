@@ -1,12 +1,14 @@
 ---
 title: I want to change the code in my node_modules folder
 subTitle: Demonstrating how to change code in one of your projects dependencies. Spoiler alert - changing code directly in node_modules does not work.
-cover: ./showing_sym_link.png
+cover: ./david-higgins-dSM6qcdS7Hk-unsplash.jpg
 ---
 
 ## Changing code in an npm dependency - how hard can it be
 
 There’s a bug in one of my dependencies and I’d like to try and fix it so I can submit a pull request to the original repo. So far I have been unable to fix the original bug but I have learned so much about npm packages and how to change code in project dependencies that I thought I better write a blog post for posterity.
+
+![bug](david-higgins-dSM6qcdS7Hk-unsplash.jpg)
 
 ## Don’t change code in node modules
 
