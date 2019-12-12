@@ -1,5 +1,6 @@
 ---
 title: About
+menuTitle: About
 ---
 
 Writings about the technical faffery of Angela Wolff.
