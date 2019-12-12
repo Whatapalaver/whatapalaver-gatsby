@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-personal-blog",
-  "description": "A Gatsby starter for a personal blog",
+  "name": "whatapalaver",
+  "description": "whatapalaver coding blog",
   "author": "Greg Lobinski <greglobinski@gmail.com>",
-  "repository": "https://github.com/greglobinski/gatsby-starter-personal-blog",
+  "repository": "https://github.com/whatapalaver/whatapalaver",
   "version": "1.1.1",
   "license": "MIT",
   "scripts": {
