@@ -36,6 +36,7 @@ module.exports = {
     description: config.siteDescription,
     siteUrl: config.siteUrl,
     pathPrefix: config.pathPrefix,
+    image: config.siteImage,
     algolia: {
       appId: process.env.GATSBY_ALGOLIA_APP_ID ? process.env.GATSBY_ALGOLIA_APP_ID : "",
       searchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_ONLY_API_KEY
