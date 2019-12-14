@@ -106,6 +106,7 @@ module.exports = {
         ]
       }
     },
+    `gatsby-plugin-netlify`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
