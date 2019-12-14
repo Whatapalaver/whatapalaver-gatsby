@@ -2,6 +2,8 @@
 title: In Praise of Exercism.io
 subTitle: Improving fundamental Ruby skills with exercism.
 cover: ./image3.jpg
+
+tags: ['ruby', 'exercism']
 ---
 
 If you want to attain mastery of anything you are going to have to accept that you start out being pretty useless. If your end goal falls under the remotely ‘challenging’ remit, then you need to accept that you will repeatedly stumble and look like a bit of a newbie for a long time.

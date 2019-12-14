@@ -2,6 +2,8 @@
 title: Git Workflow Using Rebase and Squash
 subTitle: An illustrated git rebase workflow
 cover: ./rebase_4.jpg
+
+tags: ['git', 'learned-today']
 ---
 
 For super clear details of a [rebase workflow](https://medium.com/singlestone/a-git-workflow-using-rebase-1b1210de83e5) see this blog by Singlestone.

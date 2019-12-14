@@ -2,6 +2,8 @@
 title: A Crisis of Coding Confidence
 subTitle: Makers bootcamp - I’ve been dreading the new language week at Makers. 
 cover: ./image.jpg
+
+tags: ['makers-bootcamp', 'javascript']
 ---
 
 ![girl](./image.jpg)

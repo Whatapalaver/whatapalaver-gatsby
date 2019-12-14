@@ -2,6 +2,8 @@
 title: A Promise to Compromise
 subTitle: Makers bootcamp - The week I discovered that javascript dealt in promises.
 cover: ./image.jpg
+
+tags: ['makers-bootcamp', 'javascript']
 ---
 
 Today I discovered that javascript dealt in promises.

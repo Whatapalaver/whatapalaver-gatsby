@@ -2,6 +2,8 @@
 title: When the Student is Ready the Teacher Appears
 subTitle: Makers bootcamp - Building of mental hurdles or blocks.
 cover: ./image.jpg
+
+tags: ['makers-bootcamp']
 ---
 
 We are being bombarded with new concepts on a daily basis and oscillate between panic and excitement.

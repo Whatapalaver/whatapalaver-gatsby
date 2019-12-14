@@ -2,6 +2,8 @@
 title: Starter Leavers Unite
 subTitle: Makers bootcamp - The bootcamp experience is like a high speed educational train which gathers pace as it passes through each new station or concept.
 cover: ./image.jpeg
+
+tags: ['makers-bootcamp']
 ---
 
 In management speak, individuals can apparently be categorised into one of nine different <a href="https://www.belbin.com/about/belbin-team-roles/">Belbin personality types</a> such as: Implementer, Co-ordinator and Resource-Investigator.
