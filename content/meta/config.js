@@ -5,7 +5,7 @@ module.exports = {
   shortSiteTitle: "whatapalaver", // <title> ending for posts and pages
   siteDescription: "whatapalaver - Faff of a techy nature.",
   siteUrl: "https://whatapalaver.co.uk",
-  pathPrefix: "",
+  pathPrefix: "", // eg '/blog'
   siteImage: "/preview.png",
   siteLanguage: "en",
   // author
