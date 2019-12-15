@@ -45,7 +45,7 @@ module.exports = {
       indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME ? process.env.GATSBY_ALGOLIA_INDEX_NAME : ""
     },
     facebook: {
-      appId: process.env.FB_APP_ID ? process.env.FB_APP_ID : ""
+      appId: process.env.GATSBY_FACEBOOK_APPID ? process.env.GATSBY_FACEBOOK_APPID : ""
     }
   },
   plugins: [
