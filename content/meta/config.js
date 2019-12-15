@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: "whatapalaver - Faff of a techy nature", // <title>
   shortSiteTitle: "whatapalaver", // <title> ending for posts and pages
   siteDescription: "whatapalaver - Faff of a techy nature.",
-  siteUrl: "https://whatapalaver.co.uk",
+  siteUrl: "https://whatapalaver.co.uk/",
   pathPrefix: "",
   siteImage: "/preview.png",
   siteLanguage: "en",
