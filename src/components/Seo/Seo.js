@@ -12,7 +12,9 @@ const Seo = props => {
 
   const title = postTitle ? `${postTitle} - ${config.shortSiteTitle}` : config.siteTitle;
   const description = postDescription ? postDescription : config.siteDescription;
-  const image = postCover ? postCover.childImageSharp.resize.src : config.siteImage;
+  const image = postCover
+    ? `${config.url}${postCover.childImageSharp.resize.src}`
+    : `${config.url}${config.siteImage}`;
   const url = postSlug ? `${config.url}${postSlug}` : config.url;
 
   return (
