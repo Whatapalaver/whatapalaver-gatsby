@@ -6,7 +6,7 @@ module.exports = {
   siteDescription: "whatapalaver - Faff of a techy nature.",
   siteUrl: "https://whatapalaver.co.uk",
   pathPrefix: "",
-  siteImage: "preview.png",
+  siteImage: "/preview.png",
   siteLanguage: "en",
   // author
   authorName: "angela wolff",
