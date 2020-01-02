@@ -69,6 +69,7 @@ gatsby new [NEW_SITE_DIRECTORY_FOR_YOUR_BLOG] https://github.com/greglobinski/ga
 Go into the newly created directory and run
 
 ```text
+nvm use 10.15
 gatsby develop
 ```
 
