@@ -36,10 +36,34 @@ Install [virtualenv](https://virtualenv.pypa.io/en/stable/installation/)
 
 - `pip install virtualenv`
 
-Install [virtualenvironmentwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) into the global site package where virtualenv is installed
+Install [virtualenvironmentwrapper](https://virtualenvwrapper.readthedocs.io/en/latest/install.html) into the global site package where virtualenv is installed. See the next section if you hit a problem with pip at this stage.
 
 - `pip install virtualenvwrapper` or
 - `sudo pip install virtualenvwrapper`
+
+Then you need to add the following lines to your shell startup file (.bashrc or .zshrc)
+
+```bash
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+```
+
+and finish with `source ~./bashrc` (or equivalent)
+
+## Help! Pip could not find an activated virtualenv(required)
+
+This is a handy message to prevent you installing dependencies outside of a virtual environment but can be a pain when you want to install something globally, such as virtualenvwrapper.
+
+The way I dealt with this is to add a line to my shell startup script `.bashrc`
+
+`export PIP_REQUIRE_VIRTUALENV=false`
+
+followed by `source ~./bashrc`
+
+This enabled me to install virtualenvwrapper globally. I then went back to re-edit my .bashrc file to flip the require virtualenv setting back to tru
+
+`export PIP_REQUIRE_VIRTUALENV=true`
 
 ## Creating virtual environments, activating and deactivating
 
@@ -65,7 +89,7 @@ The joy of virtualenvwrapper is that you now have a handy convenience instructio
 
 So in order to activate my virtualenv I just open a terminal and run `workon whizzy_project`, where 'new_project' is obviously whatever name you gave to your new virtual environment. I don’t need to worry where I am when I run this command.
 
-If I open a new integrated terminal from within vscode it is automagically associated with this activated virtualenv but it is also easy enough to poiy it at the right interprer.
+If I open a new integrated terminal from within vscode it is automagically associated with this activated virtualenv but it is also easy enough to point it at the right interpreter.
 
 ![python in vscode](vscode_python.png)
 
