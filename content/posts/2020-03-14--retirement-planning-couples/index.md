@@ -1,5 +1,5 @@
 ---
-title: Retirement Planning Spreadshhet for Couples (and Individuals)
+title: Retirement Planning Spreadsheet for Couples (and Individuals)
 subTitle: I've created a google sheets document to determine individual and combined networth so that couples can determine how long into retirement their funds will last. Can you retire early and achieve financial independence?
 cover: ./helloquence-5fNmWej4tAA-unsplash.jpg
 
